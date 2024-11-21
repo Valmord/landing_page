@@ -15,7 +15,7 @@ body {
   margin: 0;
 }
 
-.header, .hero {
+.header, .hero, .footer {
   display: flex;
   background-color: #1f2937;
   color: #f9faf8;
@@ -146,7 +146,7 @@ button {
 
 .sign-up {
   margin: 0;
-  padding: 200px 15%;
+  padding: 120px 15%;
 }
 
 .sign-up-container {
@@ -162,4 +162,10 @@ button {
   border: solid 3px;
   padding: 8px 40px;
   align-self: flex-end;
+}
+
+.footer {
+  justify-content: center;
+  padding: 40px 0;
+  color: #E5E7EB;
 }
