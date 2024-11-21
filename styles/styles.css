@@ -122,3 +122,22 @@ button {
   text-align: center;
   color: #646a75;
 }
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 100px 25%;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+  color: #1F2937;
+}
+
+.quote h3 {
+  text-align: end;
+  font-size: 24px;
+  margin: 0;
+}
