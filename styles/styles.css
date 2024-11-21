@@ -13,11 +13,21 @@ body {
   margin: 0;
 }
 
-.header {
+.header, .hero {
   display: flex;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.hero {
+  padding: 100px 15%;
+  gap: 40px;
+}
+
+.header {
   justify-content: space-between;
   align-items: flex-end;
-  padding: 20px 15%;
+  padding: 20px 15% 0;
 }
 
 .header h2,
@@ -40,18 +50,40 @@ ul {
   font-size: 18px;
 }
 
-.header,
-.hero {
-  background-color: #1f2937;
-  color: #f9faf8;
-}
-
 .header-links,
 .hero p {
   color: #E5E7EB;
+  cursor: pointer;
 }
 
 .hero h1 {
   font-size: 48px;
-  font-weight: 900;
+  margin: 0;
+}
+
+
+.hero-left p {
+  margin: 12px 0;
+  padding: 0;
+}
+
+
+.hero-right {
+  background-color: #6d737b;
+  font-size: 18px;
+  min-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #3882f6;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e5e7eb;
+  cursor: pointer;
 }
